@@ -4,6 +4,8 @@ import 'package:diagnose_me/app/app_text.dart';
 import 'package:diagnose_me/presentation/screens/choose/chose_screen.dart';
 import 'package:flutter/material.dart';
 
+import '../login/login.dart';
+
 class OnBoardingScreen extends StatefulWidget {
   const OnBoardingScreen({super.key});
 
@@ -145,7 +147,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   const SizedBox(height: 100,),
                   InkWell(
                     onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => const ChooseScreen(),));
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => const LoginScreen(),));
                     },
                     child: Container(
                         alignment: Alignment.center,
