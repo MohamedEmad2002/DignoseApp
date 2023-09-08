@@ -142,7 +142,22 @@ class LoginScreen extends StatelessWidget {
                                                   controller: phoneNumber)),
                                         ],
                                       ),
-
+                                      const SizedBox(height: 50,),
+                                      InkWell(
+                                        onTap: () {},
+                                        child: Container(
+                                            alignment: Alignment.center,
+                                            width: 229,
+                                            height: 48,
+                                            decoration: const BoxDecoration(
+                                                borderRadius:
+                                                BorderRadius.all(Radius.circular(24)),
+                                                color: ColorApp.threeColor),
+                                            child: const Text(
+                                              TextApp.submit,
+                                              style: TextStyle(color: Colors.white, fontSize: 14),
+                                            )),
+                                      ),
                                     ],
                                   ),
                                 ),

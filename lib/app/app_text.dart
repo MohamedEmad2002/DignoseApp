@@ -26,5 +26,5 @@ class TextApp{
   static const String confirmPassword = 'Confirm Password ';
   static const String Continue = 'Continue';
   static const String enteryourMobile = 'Enter your mobile number for verification process. \n We will send a four digit code to \n your mobile number.';
-
+  static const String submit = 'submit';
 }
