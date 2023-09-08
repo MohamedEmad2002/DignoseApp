@@ -14,5 +14,6 @@ class Assets {
 
   //icons=========================================
   static const iconVerified='assets/images/icon_verified.png';
+  static const arrowBack = 'assets/images/Icon ionic-ios-arrow-up.png';
 
 }
