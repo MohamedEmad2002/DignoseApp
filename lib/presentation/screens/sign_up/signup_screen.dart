@@ -1,7 +1,6 @@
 import 'package:diagnose_me/app/app_images.dart';
 import 'package:diagnose_me/presentation/components/customtff.dart';
 import 'package:flutter/material.dart';
-
 import '../../../app/app_color.dart';
 import '../../../app/app_text.dart';
 
@@ -123,7 +122,7 @@ class SignUpScreen extends StatelessWidget {
                       ),
                       ),
                   ),
-                  SizedBox(width: 6,),
+                  const SizedBox(width: 6,),
                   SizedBox(
                       width: 280,
                       child: CustomTFF(hintText: TextApp.phoneNumber, kbType: TextInputType.number, controller: phonenumber))

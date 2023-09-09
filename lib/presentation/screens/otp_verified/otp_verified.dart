@@ -2,6 +2,7 @@ import 'package:diagnose_me/app/app_text.dart';
 import 'package:flutter/material.dart';
 import '../../../app/app_color.dart';
 import '../../../app/app_images.dart';
+import '../healthtestone/HealthTestOne.dart';
 
 class OtpVerifiedScreen extends StatelessWidget {
   const OtpVerifiedScreen({super.key});
@@ -43,7 +44,86 @@ class OtpVerifiedScreen extends StatelessWidget {
               height: 70,
             ),
             InkWell(
-              onTap: () {},
+              onTap: () {
+                showDialog<String>(
+                  context: context,
+                  builder: (BuildContext context) => AlertDialog(
+                    shape: const RoundedRectangleBorder(
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(25.0)
+                      )
+                    ),
+                    actions: [
+                      Center(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: <Widget>[
+                            const SizedBox(height: 100,),
+                            const Text(TextApp.thisaccountFor),
+                            const SizedBox(height: 100,),
+                            SizedBox(
+                              width: 200,
+                                child: ElevatedButton(
+                                  style: const ButtonStyle(
+                                    side: MaterialStatePropertyAll(
+                                      BorderSide(
+                                        color: ColorApp.mainColor
+                                      )
+                                    ),
+                                    elevation: MaterialStatePropertyAll(0.0),
+                                    backgroundColor: MaterialStatePropertyAll(
+                                      Colors.white
+                                    ),
+                                    shape: MaterialStatePropertyAll(
+                                      RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.all(
+                                          Radius.circular(25.0)
+                                        )
+                                      )
+                                    )
+                                  ),
+                                  onPressed: (){}, child:   const Text(TextApp.Patient,style: TextStyle(
+                                  color: ColorApp.mainColor
+                                ),),)),
+                            const SizedBox(height: 17,),
+                            SizedBox(
+                                width: 200,
+                                child: ElevatedButton(
+                                  style: const ButtonStyle(
+                                      side: MaterialStatePropertyAll(
+                                          BorderSide(
+                                              color: ColorApp.mainColor
+                                          )
+                                      ),
+                                      elevation: MaterialStatePropertyAll(0.0),
+                                      backgroundColor: MaterialStatePropertyAll(
+                                          Colors.white
+                                      ),
+                                      shape: MaterialStatePropertyAll(
+                                          RoundedRectangleBorder(
+                                              borderRadius: BorderRadius.all(
+                                                  Radius.circular(25.0)
+                                              )
+                                          )
+                                      )
+                                  ),
+                                  onPressed: (){
+                                    Navigator.push(context, MaterialPageRoute(builder: (context) {
+                                      return const HealthTestOne();
+                                    },));
+                                  }, child:   const Text(TextApp.Doctor,style: TextStyle(
+                                    color: ColorApp.mainColor
+                                ),),)),
+                            const SizedBox(
+                              height: 100,
+                            )
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                );
+              },
               child: Container(
                   alignment: Alignment.center,
                   width: 229,

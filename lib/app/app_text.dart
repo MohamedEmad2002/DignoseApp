@@ -27,4 +27,16 @@ class TextApp{
   static const String Continue = 'Continue';
   static const String enteryourMobile = 'Enter your mobile number for verification process. \n We will send a four digit code to \n your mobile number.';
   static const String submit = 'submit';
+  static const String resetPassword = 'Reset Password';
+  static const String Setthenewpasswordforyouraccountsoyoucanloginandaccessallourfeatures='Set the new password for your account \n so you can login and access all our features. ';
+  static const String enterdigitsCode = 'Enter 4 digits code';
+  static const String Doctor= 'Doctor';
+  static const String Patient = 'Patient';
+  static const String HealthTest = 'Health Test';
+  static const String hello = 'Hello,';
+  static const String letsgetstarted = 'Let''s get started.';
+  static const String Selectyourage = 'Select your age';
+  static const String Selectyourgender = 'Select your gender';
+  static const String thisaccountFor = 'This Account For';
+  static const String Enterthefourdigitcodesenttoyourmobilenumber='Enter the four digit code sent to your \n mobile number.';
 }
