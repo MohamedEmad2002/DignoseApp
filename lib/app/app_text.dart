@@ -38,5 +38,20 @@ class TextApp{
   static const String Selectyourage = 'Select your age';
   static const String Selectyourgender = 'Select your gender';
   static const String thisaccountFor = 'This Account For';
+  static const String SaveSymptoms = 'Save Symptoms';
+  static const String Next = 'Next' ;
+  static const String back = 'Back' ;
+  static const String Mysymptoms = 'My symptoms';
+  static const String Headache = 'Headache';
+  static const String Howseverisyourpain = 'How sever is your pain ?';
+  static const String Taptoshowhowmuchpainsyouarein = 'Tap to show how much pains you are in';
+  static const String Mid = 'Mid';
+  static const String Unbearable = 'Un bearable';
+  static const String Doyouhavefeverorhighbodytempeture = 'Do you have fever or high body tempeture ?';
+  static const String Headacheinface = 'Headache in face';
+  static const String Search = 'Search';
+  static const String Addsymptom = 'Add symptom';
+  static const String Addasmanysymptomsasyoucanforthemostaccurateresults = 'Add as many symptoms as you can for the most \n accurate results';
+  static const String Selectthesymptomsyoucurrentlyhave = 'Select the symptoms you currently have';
   static const String Enterthefourdigitcodesenttoyourmobilenumber='Enter the four digit code sent to your \n mobile number.';
 }

@@ -19,6 +19,12 @@ class Assets {
   static const circuler = 'assets/images/Group 72093.png';
   static const maile = 'assets/images/Group 72041.png';
   static const femaile = 'assets/images/Group 72040.png';
+  static const body = 'assets/images/6997109.png';
+  static const add= 'assets/images/add (2).png';
+  static const String delete = 'assets/images/Group 71968.png';
+  static const String progress = 'assets/images/Group 72051.png';
+  static const String elibse = 'assets/images/Ellipse 1.png';
+  static const String empty = 'assets/images/Group 72093.png';
 
 
   //icons=========================================

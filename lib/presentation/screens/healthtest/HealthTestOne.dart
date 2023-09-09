@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../../../app/app_color.dart';
 import '../../../app/app_images.dart';
 import '../../../app/app_text.dart';
+import 'hwalthtestwo.dart';
 
 class HealthTestOne extends StatelessWidget {
   const HealthTestOne({super.key});
@@ -138,7 +139,11 @@ class HealthTestOne extends StatelessWidget {
             ),
             Center(
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return const HealthTestTwo();
+                  },));
+                },
                 child: Container(
                     alignment: Alignment.center,
                     width: 229,

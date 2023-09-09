@@ -2,7 +2,7 @@ import 'package:diagnose_me/app/app_text.dart';
 import 'package:flutter/material.dart';
 import '../../../app/app_color.dart';
 import '../../../app/app_images.dart';
-import '../healthtestone/HealthTestOne.dart';
+import '../healthtest/HealthTestOne.dart';
 
 class OtpVerifiedScreen extends StatelessWidget {
   const OtpVerifiedScreen({super.key});

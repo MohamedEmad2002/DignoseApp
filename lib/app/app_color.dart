@@ -7,4 +7,5 @@ class ColorApp{
   static const Color twoColor = Color(0xffC9D1FB748AFF);
   static const Color threeColor = Color(0xff606FF2748AFF);
   static const Color textGrey = Color(0xff707070);
+  static const Color fivecolor = Color(0xffC9D1FB);
 }
