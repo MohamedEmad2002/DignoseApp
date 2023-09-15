@@ -25,7 +25,14 @@ class Assets {
   static const String progress = 'assets/images/Group 72051.png';
   static const String elibse = 'assets/images/Ellipse 1.png';
   static const String empty = 'assets/images/Group 72093.png';
-
+  static const String plant = 'assets/images/Group 72151.png';
+  static const String ringone = 'assets/images/Ellipse 116.png';
+  static const String ringtwo = 'assets/images/Ellipse 117.png';
+  static const String one = 'assets/images/one.png';
+  static const String two = 'assets/images/9165550_sad_emoji_face_icon.png';
+  static const String three = 'assets/images/Group 72063.png' ;
+  static const String four = 'assets/images/Rectangle 9190.png';
+  static const String calender = 'assets/images/5955268_calendar_deadline_reminder_schedule_timeframe_icon.png' ;
 
   //icons=========================================
   static const iconVerified='assets/images/icon_verified.png';

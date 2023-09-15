@@ -53,5 +53,10 @@ class TextApp{
   static const String Addsymptom = 'Add symptom';
   static const String Addasmanysymptomsasyoucanforthemostaccurateresults = 'Add as many symptoms as you can for the most \n accurate results';
   static const String Selectthesymptomsyoucurrentlyhave = 'Select the symptoms you currently have';
+  static const String YouranalysisareNegative = 'Your analysis are Negative';
+  static const String Unfortunately = 'Unfortunately';
+  static const String YouranalysisarePositive = 'Your analysis are Positive';
   static const String Enterthefourdigitcodesenttoyourmobilenumber='Enter the four digit code sent to your \n mobile number.';
+  static const String calendertext = 'You require to add your analysis \n  to help you to  feel safe about your \n  health , so press the button blow \n immediately to add .';
+  static const String three = 'Your symptoms may require medical \n evaluation . Schedule an appointment with \n your doctor . If your symptoms get worse , see \n a doctor immediately.';
 }

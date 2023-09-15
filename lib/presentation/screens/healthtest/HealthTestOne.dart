@@ -140,9 +140,124 @@ class HealthTestOne extends StatelessWidget {
             Center(
               child: InkWell(
                 onTap: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return const HealthTestTwo();
-                  },));
+                  showDialog<String>(
+                    context: context,
+                    builder: (BuildContext context) => AlertDialog(
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.all(Radius.circular(50))),
+                      actions: <Widget>[
+                        SizedBox(
+                          width: 314,
+                          height: 655,
+                          child: SingleChildScrollView(
+                            child: Padding(
+                              padding:
+                                  const EdgeInsets.symmetric(horizontal: 20),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  SizedBox(
+                                    height: 30,
+                                  ),
+                                  Text('Sample'),
+                                  SizedBox(
+                                    height: 10,
+                                  ),
+                                  TextFormField(
+                                    decoration: InputDecoration(
+                                      border: OutlineInputBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(20)),
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    height: 10,
+                                  ),
+                                  Text('Sample'),
+                                  SizedBox(
+                                    height: 10,
+                                  ),
+                                  TextFormField(
+                                    decoration: InputDecoration(
+                                      border: OutlineInputBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(20)),
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    height: 10,
+                                  ),
+                                  Text('Sample'),
+                                  SizedBox(
+                                    height: 10,
+                                  ),
+                                  TextFormField(
+                                    decoration: InputDecoration(
+                                      border: OutlineInputBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(20)),
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    height: 10,
+                                  ),
+                                  Text('Sample'),
+                                  SizedBox(
+                                    height: 10,
+                                  ),
+                                  TextFormField(
+                                    decoration: InputDecoration(
+                                      border: OutlineInputBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(20)),
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    height: 10,
+                                  ),
+                                  Text('Sample'),
+                                  SizedBox(
+                                    height: 10,
+                                  ),
+                                  TextFormField(
+                                    decoration: InputDecoration(
+                                      border: OutlineInputBorder(
+                                          borderRadius:
+                                              BorderRadius.circular(20)),
+                                    ),
+                                  ),
+                                  SizedBox(height: 50,),
+                                  Center(
+                                    child: SizedBox(
+                                      width: 260,
+                                      height: 48,
+                                      child: InkWell(
+                                        onTap: () {},
+                                        child: Container(
+                                            alignment: Alignment.center,
+                                            width: 142,
+                                            height: 48,
+                                            decoration: const BoxDecoration(
+                                                borderRadius: BorderRadius.all(
+                                                    Radius.circular(24)),
+                                                color: ColorApp.threeColor),
+                                            child: const Text(
+                                              TextApp.Next,
+                                              style: TextStyle(
+                                                  color: Colors.white,
+                                                  fontSize: 14),
+                                            )),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
+                  );
                 },
                 child: Container(
                     alignment: Alignment.center,
